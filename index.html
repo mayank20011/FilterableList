@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filterable List</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="./script.js" defer></script>
+
+</head>
+
+<body>
+  <div class="container my-4" style="max-width:550px;">
+    <h1 class="text-center">
+      My Contacts
+    </h1>
+
+    <input type="text" id="filterInput" placeholder="Search names..."
+      class="w-100 border-0 border-bottom border-3 py-2 border-secondary" style="outline: none;">
+    <ul class="list-unstyled list-group my-3">
+      <!-- A NAmes -->
+      <li class="list-group-item text-secondary">
+        <h3>A</h3>
+      </li>
+      <li class="list-group-item text-primary">Abe</li>
+      <li class="list-group-item text-primary">Amelia</li>
+      <li class="list-group-item text-primary">Alexander</li>
+      <li class="list-group-item text-primary">Abigail</li>
+      <li class="list-group-item text-primary">Avery</li>
+      <li class="list-group-item text-primary">Aria</li>
+      <li class="list-group-item text-primary">Alice</li>
+
+      <!-- B Names -->
+      <li class="list-group-item text-secondary">
+        <h3>B</h3>
+      </li>
+      <li class="list-group-item text-primary">Brandon</li>
+      <li class="list-group-item text-primary">Brianna</li>
+      <li class="list-group-item text-primary">Bennett</li>
+      <li class="list-group-item text-primary">Brooklyn</li>
+      <li class="list-group-item text-primary">Blake</li>
+      <li class="list-group-item text-primary">Bryson</li>
+      <li class="list-group-item text-primary">Bella</li>
+
+    <!-- c Naes -->
+
+    <li class="list-group-item text-secondary">
+      <h3>C</h3>
+    </li>
+    <li class="list-group-item text-primary">Chloe</li>
+    <li class="list-group-item text-primary">Claire</li>
+    <li class="list-group-item text-primary">Carter</li>
+    <li class="list-group-item text-primary"> Casey</li>
+    <li class="list-group-item text-primary">Christopher</li>
+    <li class="list-group-item text-primary">Catherine</li>
+
+    <!-- D Names -->
+    <li class="list-group-item text-secondary">
+      <h3>D</h3>
+    </li>
+    <li class="list-group-item text-primary">Daisy</li>
+    <li class="list-group-item text-primary">Daniel</li>
+    <li class="list-group-item text-primary">Diana</li>
+    <li class="list-group-item text-primary">Derek</li>
+
+    <!-- E Names -->
+     <li class="list-group-item text-secondary">
+      <h3>E</h3>
+     </li>
+    <li class="list-group-item text-primary">Emma</li>
+    <li class="list-group-item text-primary">Evelyn</li>
+    <li class="list-group-item text-primary">Ethan</li>
+    <li class="list-group-item text-primary">Emery</li>
+
+     <!-- F names -->
+     <li class="list-group-item text-secondary">
+      <h3>F</h3>
+     </li>
+     <li class="list-group-item text-primary">Fiona</li>
+     <li class="list-group-item text-primary">Felicity</li>
+     <li class="list-group-item text-primary">Finn</li>
+     <li class="list-group-item text-primary">Faith</li>
+     <li class="list-group-item text-primary">Farrah</li>
+
+     <!-- G Names -->
+     <li class="list-group-item text-secondary">
+      <h3>G</h3>
+     </li>
+     <li class="list-group-item text-primary">Gian</li>
+     <li class="list-group-item text-primary">Gianna</li>
+     <li class="list-group-item text-primary">Gabriel</li>
+     <li class="list-group-item text-primary">George</li>
+     <li class="list-group-item text-primary">Garrett</li>
+     <li class="list-group-item text-primary">Gemma</li>
+
+     <!-- H Names -->
+     <li class="list-group-item text-secondary">
+      <h3>H</h3>
+     </li>
+     <li class="list-group-item text-primary">Hannah</li>
+     <li class="list-group-item text-primary">Henry</li>
+     <li class="list-group-item text-primary">Harper</li>
+
+     <!-- I Names -->
+     <li class="list-group-item text-secondary">
+      <h3>I</h3>
+     </li>
+     <li class="list-group-item text-primary">Isabella</li>
+     <li class="list-group-item text-primary">Issac</li>
+     <li class="list-group-item text-primary">Ivy</li>
+     <li class="list-group-item text-primary">Ian</li>
+
+     <!--j Names -->
+     <li class="list-group-item text-secondary">
+      <h3>J</h3>
+     </li>
+     <li class="list-group-item text-primary">Jacob</li>
+     <li class="list-group-item text-primary">Julia</li>
+     <li class="list-group-item text-primary">Jackson</li>
+
+     <!--k Names -->
+     <li class="list-group-item text-secondary">
+      <h3>K</h3>
+     </li>
+     <li class="list-group-item text-primary">Kayla</li>
+     <li class="list-group-item text-primary">Kevin</li>
+     <li class="list-group-item text-primary">Kaden</li>
+     <li class="list-group-item text-primary">Kiara</li>
+     <li class="list-group-item text-primary">Keith</li>
+
+     <!--l Names -->
+     <li class="list-group-item text-secondary">
+      <h3>L</h3>
+     </li>
+     <li class="list-group-item text-primary">Liam</li>
+     <li class="list-group-item text-primary">Lily</li>
+     <li class="list-group-item text-primary">Lucas</li>
+     <li class="list-group-item text-primary">Lauren</li>
+     <li class="list-group-item text-primary">Logan</li>
+
+     <!--m Names -->
+     <li class="list-group-item text-secondary">
+      <h3>M</h3>
+     </li>
+     <li class="list-group-item text-primary">Mason</li>
+     <li class="list-group-item text-primary">Mia</li>
+     <li class="list-group-item text-primary">Matthew</li>
+
+     <!--n Names -->
+     <li class="list-group-item text-secondary">
+      <h3>N</h3>
+     </li>
+     <li class="list-group-item text-primary">Natalie</li>
+     <li class="list-group-item text-primary">Nathan</li>
+     <li class="list-group-item text-primary">Nicole</li>
+     <li class="list-group-item text-primary">Nora</li>
+     <li class="list-group-item text-primary">Neil</li>
+     <li class="list-group-item text-primary">Nadia</li>
+
+     <!--o Names -->
+     <li class="list-group-item text-secondary">
+      <h3>O</h3>
+     </li>
+     <li class="list-group-item text-primary">Owen</li>
+     <li class="list-group-item text-primary">Olivia</li>
+
+     <!--p Names -->
+     <li class="list-group-item text-secondary">
+      <h3>P</h3>
+     </li>
+     <li class="list-group-item text-primary">Priscilla</li>
+     <li class="list-group-item text-primary">Preston</li>
+     <li class="list-group-item text-primary">Phoebe</li>
+     <li class="list-group-item text-primary">Priscilla</li>
+
+     <!--q Names -->
+     <li class="list-group-item text-secondary">
+      <h3>Q</h3>
+     </li>
+     <li class="list-group-item text-primary">Quinn</li>
+     <li class="list-group-item text-primary">Quentin</li>
+     <li class="list-group-item text-primary">Quincy</li>
+     <li class="list-group-item text-primary">Quest</li>
+     <li class="list-group-item text-primary">Quiana</li>
+
+     <!--r Names -->
+     <li class="list-group-item text-secondary">
+      <h3>R</h3>
+     </li>
+     <li class="list-group-item text-primary">Ryan</li>
+     <li class="list-group-item text-primary">Riley</li>
+
+     <!--s Names -->
+     <li class="list-group-item text-secondary">
+      <h3>S</h3>
+     </li>
+     <li class="list-group-item text-primary">Sophia</li>
+     <li class="list-group-item text-primary">Samuel</li>
+     <li class="list-group-item text-primary">Sydney</li>
+     <li class="list-group-item text-primary">Sawyer</li>
+
+     <!--t Names -->
+     <li class="list-group-item text-secondary">
+      <h3>T</h3>
+     </li>
+     <li class="list-group-item text-primary">Taylor</li>
+     <li class="list-group-item text-primary">Thomas</li>
+     <li class="list-group-item text-primary">Timothy</li>
+
+     <!--u Names -->
+     <li class="list-group-item text-secondary">
+      <h3>U</h3>
+     </li>
+     <li class="list-group-item text-primary">Uma</li>
+     <li class="list-group-item text-primary">Usha</li>
+     <li class="list-group-item text-primary">Uriel</li>
+     <li class="list-group-item text-primary">Uriah</li>
+
+     <!--v Names -->
+     <li class="list-group-item text-secondary">
+      <h3>V</h3>
+     </li>
+     <li class="list-group-item text-primary">Victoria</li>
+     <li class="list-group-item text-primary">Vincent</li>
+     <li class="list-group-item text-primary">Victor</li>
+     <li class="list-group-item text-primary">Vito</li>
+     <li class="list-group-item text-primary">Valerie</li>
+
+     <!--w Names -->
+     <li class="list-group-item text-secondary">
+      <h3>W</h3>
+     </li>
+     <li class="list-group-item text-primary">Wendy</li>
+
+     <!--x Names -->
+     <li class="list-group-item text-secondary">
+      <h3>X</h3>
+     </li>
+     <li class="list-group-item text-primary">Xena</li>
+     <li class="list-group-item text-primary">Xavier</li>
+     <li class="list-group-item text-primary">Xia</li>
+
+     <!-- y Names -->
+     <li class="list-group-item text-secondary">
+      <h3>Y</h3>
+     </li>
+     <li class="list-group-item text-primary">Yara</li>
+     <li class="list-group-item text-primary">Yahir</li>
+     <li class="list-group-item text-primary">Yael</li>
+     <li class="list-group-item text-primary">Yasim</li>
+     <li class="list-group-item text-primary">Yosef</li>
+
+     <!--z Names -->
+     <li class="list-group-item text-secondary">
+      <h3>Z</h3>
+     </li>
+     <li class="list-group-item text-primary">Zoe</li>
+     <li class="list-group-item text-primary">Zana</li>
+     <li class="list-group-item text-primary">Zara</li>
+     <li class="list-group-item text-primary">Zayden</li>
+
+
+  </ul>
+
+  </div>
+</body>
+
+</html>
